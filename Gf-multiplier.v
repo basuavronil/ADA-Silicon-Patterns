@@ -1,6 +1,6 @@
 module gf_mult_2_4 (
-    input  wire [3:0] a,       // Data byte (e.g., from your message)
-    input  wire [3:0] b,       // Coefficient (e.g., from the Generator)
+    input [3:0] a,       // Data byte (e.g., from message)
+    input [3:0]b,       // Coefficient (e.g., from the Generator)
     output wire [3:0] q        // The GF Product
 );
 
