@@ -1,7 +1,7 @@
 module scrambler_downstream (
     input  clk, rst,  enable,
-    input [1:0]  data_in,  // 2-bit input (Even/Odd pair)
-    output [1:0]  data_out  // 2-bit scrambled output
+    input [1:0]  data_in,  
+    output [1:0]  data_out  
 );
 
     reg [22:0] lfsr;
